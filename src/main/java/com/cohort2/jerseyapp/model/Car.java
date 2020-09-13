@@ -64,6 +64,14 @@ public class Car {
 	public void setType(CARTYPE type) {
 		this.type = type;
 	}
+
+
+
+//	@Override
+//	public String toString() {
+//		return "Car [id=" + id + ", model=" + model + ", brand=" + brand + ", year=" + year + ", type=" + type + "]";
+//	}
+	
 	
 	
 }

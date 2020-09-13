@@ -1,26 +1,14 @@
 package com.cohort2.jerseyapp;
 
-import java.lang.annotation.Annotation;
-import java.net.URI;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
-import java.util.Set;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.CacheControl;
-import javax.ws.rs.core.EntityTag;
-import javax.ws.rs.core.Link;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.MultivaluedMap;
-import javax.ws.rs.core.NewCookie;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Variant;
-import javax.ws.rs.core.Response.ResponseBuilder;
 
 import com.cohort2.jerseyapp.dao.CarDao;
 import com.cohort2.jerseyapp.model.CARTYPE;
